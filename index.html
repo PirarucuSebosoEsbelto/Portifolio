@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Disciplinas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-disciplinas" onclick="toggleMenu()">&#9776;</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Biologia</a></li>
+                <li><a href="#">Física</a></li>
+                <li><a href="#">Química</a></li>
+            </ul>
+        </nav>
+        <h1 class="title">PORTIFÓLIO</h1>
+        <div class="nav-links">
+            <a href="atividades.html">Atividades</a>
+            <a href="provas.html">Provas</a>
+            <a href="projetos.html">Projetos</a>
+        </div>
+        
+    </header>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('show');
+        }
+    </script>
+
+    <div class="texto">
+        <h1>Portifólio</h1>
+    <h2>Tela inicial</h2>
+    <img src="C:\Users\aluno\Downloads\the-periodic-table-4273681_1280.jpg" alt="tabela">
+</div>
+
+</body>
+</html>

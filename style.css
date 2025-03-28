@@ -1,0 +1,89 @@
+:root{
+    --cor-de-fundo: #fff1e5;
+    --cor-de-texto: black;
+    --cor-do-cabeçalho: #ffe1f1;
+    --marrom: #6d4930;
+    --verdinho: #eaf2dd;
+    }
+
+body {
+    background-color:var(--cor-de-fundo);
+    color: var(--cor-de-texto);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--cor-do-cabeçalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu-disciplinas {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-color: var(--cor-do-cabeçalho);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+}
+
+.menu.show {
+    display: block;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin: 10px 0;
+}
+
+.menu ul li a {
+    color: var(--marrom);
+    text-decoration: none;
+}
+
+.nav-links a {
+    display: block;
+    color: var(--marrom);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu a:hover {
+    background-color: var(--verdinho);
+}
+
+#menu-toggle:checked ~ .menu{
+    display: block;
+}
+
+.nav-links a:hover {
+    background-color: var(--verdinho);
+}
+
+#menu-toggle:checked ~ .nav-links{
+    display: block;
+}
+
+.texto {
+    display: block;
+    text-align: center;
+}
