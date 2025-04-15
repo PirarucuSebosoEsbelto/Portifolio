@@ -75,10 +75,6 @@ header {
     display: block;
 }
 
-.nav-links a:hover {
-    background-color: var(--verdinho);
-}
-
 #menu-toggle:checked ~ .nav-links{
     display: block;
 }
