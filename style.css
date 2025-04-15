@@ -14,8 +14,6 @@ body {
     padding: 0;
 }
 
-
-
 header {
     background-color: var(--cor-do-cabeçalho);
     display: flex;
@@ -40,7 +38,7 @@ header {
 }
 
 .title {
-    text-align: center;
+    justify-content: center;
 }
 
 .menu.show {
