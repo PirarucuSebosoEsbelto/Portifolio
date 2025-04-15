@@ -43,5 +43,5 @@ header {
 .menu2 {
     font-size: 12px;
     cursor: pointer;
-    color: red;
+    justify-content: end;
 }
