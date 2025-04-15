@@ -46,6 +46,6 @@ header {
 }
 
 .titule {
-    align-items: center;
+    align-items: space-around;
     justify-content: center;
 }
