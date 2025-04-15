@@ -41,6 +41,7 @@ header {
 }
 
 .menu2 {
-    font-size: 24px;
+    font-size: 12px;
     cursor: pointer;
+    color-text: red;
 }
