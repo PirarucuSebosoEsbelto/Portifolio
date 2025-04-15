@@ -25,7 +25,7 @@ body {
 header {
     background-color: var(--cor-do-cabeçalho);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
 }
@@ -45,8 +45,3 @@ header {
     border-radius: 5px;
 }
 
-.titule {
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-}
